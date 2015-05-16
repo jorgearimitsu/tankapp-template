@@ -1,0 +1,229 @@
+/*
+*  This file is licensed under the 
+*  Creative Creative Commons Attribution 4.0 License 
+*  http://creativecommons.org/licenses/by/4.0/
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-width: 1260px; }
+
+.container {
+  margin: 0 auto;
+  width: 1260px; }
+
+body {
+  font-family: "Ubuntu", sans-serif; }
+
+h2 {
+  font-size: 2.5em; }
+
+section > h2,
+section .container > h2 {
+  text-align: center; }
+
+h3 {
+  display: inline-block;
+  vertical-align: middle; }
+
+h2, h3,
+li[role=menuitem] a {
+  color: #2d394c; }
+
+h2,
+li[role=menuitem] a {
+  text-transform: uppercase; }
+
+p,
+li[role=menuitem] a {
+  font-size: 1em; }
+
+li[role=menuitem] a {
+  font-weight: 300;
+  text-decoration: none; }
+
+p {
+  color: #5a626e;
+  font-weight: 300; }
+
+nav[role=navigation],
+ul[role=menu],
+li[role=menuitem] {
+  display: inline-block; }
+
+input {
+  border: none;
+  border-radius: 5px;
+  color: #d9d9d9;
+  font: 300 1.125em "Ubuntu", sans-serif; }
+
+button {
+  background-color: #77c344;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font: 500 1.125em "Ubuntu", sans-serif;
+  text-transform: uppercase; }
+
+header[role=banner] {
+  height: 85px;
+  line-height: 85px;
+  text-align: right; }
+  header[role=banner] h1 {
+    float: left; }
+    header[role=banner] h1 img {
+      height: 31px;
+      vertical-align: middle;
+      width: 201; }
+    header[role=banner] h1 span {
+      display: none; }
+  header[role=banner] li[role=menuitem]:not(:last-child) {
+    margin-right: 30px; }
+
+#tankapp > h2 {
+  display: none; }
+#tankapp > section:not(#clients),
+#tankapp > article:not(#banner) {
+  padding: 120px 0; }
+
+#banner {
+  background: url("img/banner.jpg") center no-repeat;
+  height: 845px;
+  position: relative; }
+  #banner .banner-text {
+    position: absolute;
+    top: 263px; }
+  #banner h2, #banner p,
+  #banner label {
+    color: #fff; }
+  #banner p {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 40px 0; }
+    #banner p::first-letter {
+      text-transform: uppercase; }
+  #banner label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: capitalize; }
+    #banner label span {
+      background-color: #ffce54;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 8px 10px;
+      text-transform: uppercase; }
+  #banner input {
+    height: 55px;
+    padding-left: 30px;
+    width: 420px; }
+  #banner button {
+    padding: 17px 25px; }
+
+#clients {
+  background-color: #f8f8f8;
+  height: 160px;
+  line-height: 160px;
+  position: relative;
+  text-align: center; }
+  #clients h2 {
+    position: absolute;
+    left: -9999em; }
+  #clients img {
+    vertical-align: middle; }
+    #clients img:not(:last-child) {
+      margin-right: 120px; }
+
+#why-us {
+  background: url("img/macbook-bg.jpg") right 270px no-repeat; }
+  #why-us h2 {
+    margin-bottom: 120px; }
+  #why-us section {
+    width: 485px; }
+    #why-us section:not(:last-child) {
+      margin-bottom: 35px; }
+    #why-us section h3 {
+      font-size: 1.375em;
+      font-weight: 500;
+      text-transform: capitalize; }
+    #why-us section p {
+      color: #9499a2;
+      font-size: .875em;
+      line-height: 22px; }
+
+[class*=i-] {
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  margin-bottom: 10px; }
+  [class*=i-]:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.i-cloud-c {
+  background-image: url("img/i-cloud-check.gif");
+  height: 31px; }
+
+.i-clock {
+  background-image: url("img/i-clock.gif");
+  height: 45px; }
+
+.i-chat,
+.i-file {
+  height: 52px; }
+
+.i-chat {
+  background-image: url("img/i-chat.gif"); }
+
+.i-file {
+  background-image: url("img/i-file.gif"); }
+
+#why-different {
+  background: #f1f1f2 url("img/why-different-bg.png") right center no-repeat; }
+  #why-different h2 {
+    margin-bottom: 155px; }
+  #why-different h3 {
+    font-size: 1.75em; }
+    #why-different h3:first-letter {
+      text-transform: uppercase; }
+  #why-different p {
+    line-height: 2;
+    width: 715px; }
+
+.i-cloud {
+  background-image: url("img/i-cloud.gif");
+  height: 42px;
+  margin-bottom: 30px;
+  padding-left: 85px; }
+
+#sign-up {
+  text-align: center; }
+  #sign-up h2 {
+    margin-bottom: 50px; }
+  #sign-up p {
+    font-size: 1.5em;
+    margin: 50px 0; }
+    #sign-up p:first-letter {
+      text-transform: uppercase; }
+  #sign-up form {
+    position: relative; }
+    #sign-up form label {
+      position: absolute;
+      left: -9999em; }
+    #sign-up form input {
+      border: 1px solid #d1d1d1;
+      height: 61px;
+      padding-left: 80px;
+      width: 630px; }
+      #sign-up form input:after {
+        content: ".";
+        display: inline-block;
+        height: 100%; }
+    #sign-up form button {
+      padding: 20px 55px; }

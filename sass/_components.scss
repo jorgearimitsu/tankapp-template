@@ -1,0 +1,101 @@
+// ==================================================
+// @partial components
+// --------------------------------------------------
+// This partial describes the default styles and
+// components of the page
+// ==================================================
+//
+//  This file is licensed under the 
+//  Creative Creative Commons Attribution 4.0 License 
+//  http://creativecommons.org/licenses/by/4.0/
+//
+// ==================================================
+// Table of contents
+// --------------------------------------------------
+// @section layout
+// --------------------------------------------------
+// @section typography
+// ==================================================
+
+
+// --------------------------------------------------
+// @section layout
+// --------------------------------------------------
+body { min-width: 1260px; }
+
+.container {
+  margin: 0 auto;
+  width: 1260px;
+}
+
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// @section typography
+// --------------------------------------------------
+body { font-family: "Ubuntu", sans-serif; }
+
+h2 { font-size: 2.5em; } // 40px / 16px
+
+section > h2,
+section .container > h2 { text-align: center; }
+
+h3 { 
+  display: inline-block; 
+  vertical-align: middle;
+}
+
+h2, h3,
+li[role=menuitem] a { color: #2d394c; }
+
+h2,
+li[role=menuitem] a { text-transform: uppercase; }
+
+p,
+li[role=menuitem] a { font-size: 1em; }
+
+li[role=menuitem] a { 
+  font-weight: 300;
+  text-decoration: none; 
+}
+
+p { 
+  color: #5a626e; 
+  font-weight: 300;
+}
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// @section navigation
+// --------------------------------------------------
+nav[role=navigation],
+ul[role=menu],
+li[role=menuitem] { display: inline-block; }
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// @section form
+// --------------------------------------------------
+input {
+  border: none;
+  border-radius: 5px;
+  color: #d9d9d9;
+  font: 300 1.125em "Ubuntu", sans-serif;
+}
+
+
+// --------------------------------------------------
+// @section buttons
+// --------------------------------------------------
+button {
+  background-color: #77c344;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font: 500 1.125em "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+// --------------------------------------------------
