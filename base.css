@@ -64,6 +64,9 @@ h2, h3, li[role=menuitem] a {
 p {
   color: #5a626e; }
 
+li[role=menuitem] a:hover {
+  color: #65A9D9; }
+
 li[role=menuitem]:not(:last-child) {
   margin-right: 30px; }
 
