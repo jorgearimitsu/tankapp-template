@@ -79,7 +79,8 @@ button {
   background-color: #77c344;
   border: none;
   border-radius: 3px;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
 
 [class*="h-icon-"] {
   background-repeat: no-repeat;
