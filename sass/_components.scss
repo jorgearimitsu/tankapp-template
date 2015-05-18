@@ -99,3 +99,24 @@ button {
   text-transform: uppercase;
 }
 // --------------------------------------------------
+
+
+// --------------------------------------------------
+// @section icons
+// --------------------------------------------------
+.input-icon {
+  display: inline-block;
+  position: relative;
+  width: 630px;
+}
+
+.input-envelope {
+  background: url("img/i-envelope") no-repeat;
+  height: 23px;
+  left: 20px;
+  margin-top: -11.5px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+// --------------------------------------------------

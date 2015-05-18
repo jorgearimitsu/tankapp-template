@@ -70,6 +70,20 @@ button {
   font: 500 1.125em "Ubuntu", sans-serif;
   text-transform: uppercase; }
 
+.input-icon {
+  display: inline-block;
+  position: relative;
+  width: 630px; }
+
+.input-envelope {
+  background: url("img/i-envelope") no-repeat;
+  height: 23px;
+  left: 20px;
+  margin-top: -11.5px;
+  position: absolute;
+  top: 50%;
+  width: 30px; }
+
 header[role=banner] {
   height: 85px;
   line-height: 85px;
@@ -219,8 +233,8 @@ header[role=banner] {
     #sign-up form input {
       border: 1px solid #d1d1d1;
       height: 61px;
-      padding-left: 80px;
-      width: 630px; }
+      padding-left: 70px;
+      width: 100%; }
       #sign-up form input:after {
         content: ".";
         display: inline-block;
