@@ -152,36 +152,6 @@ header[role=banner] {
     }
   }
 }
-
-[class*=i-] {
-  background-repeat: no-repeat;
-  padding-left: 60px;
-  margin-bottom: 10px;
-
-  &:before {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-}
-
-.i-cloud-c { 
-  background-image: url("img/i-cloud-check.gif"); 
-  height: 31px;
-}
-
-.i-clock { 
-  background-image: url("img/i-clock.gif"); 
-  height: 45px;
-}
-
-.i-chat,
-.i-file { height: 52px; } 
-
-.i-chat { background-image: url("img/i-chat.gif"); }
-
-.i-file { background-image: url("img/i-file.gif"); }
 // --------------------------------------------------
 
 
@@ -204,14 +174,8 @@ header[role=banner] {
     width: 715px;
   }
 }
-
-.i-cloud {
-  background-image: url("img/i-cloud.gif");
-  height: 42px;
-  margin-bottom: 30px;
-  padding-left: 85px;
-}
 // --------------------------------------------------
+
 
 // --------------------------------------------------
 // @section sign-up

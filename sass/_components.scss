@@ -108,6 +108,46 @@ button {
 // --------------------------------------------------
 // @section icons
 // --------------------------------------------------
+
+// heading icons
+[class*="h-icon-"] {
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  margin-bottom: 10px;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+.h-icon-cloud-c { 
+  background-image: url("img/i-cloud-check.gif"); 
+  height: 31px;
+}
+
+.h-icon-clock { 
+  background-image: url("img/i-clock.gif"); 
+  height: 45px;
+}
+
+.h-icon-chat,
+.h-icon-file { height: 52px; } 
+
+.h-icon-chat { background-image: url("img/i-chat.gif"); }
+
+.h-icon-file { background-image: url("img/i-file.gif"); }
+
+.h-icon-cloud {
+  background-image: url("img/i-cloud.gif");
+  height: 42px;
+  margin-bottom: 30px;
+  padding-left: 85px;
+}
+
+// input icons
 .input-icon {
   display: inline-block;
   position: relative;
@@ -140,19 +180,19 @@ button {
   &:not(:last-child) { margin-right: 30px; }
 }
 
-[class*="icon-"] { 
+[class*="s-icon-"] { 
   height: 23px;
   vertical-align: middle; 
 }
 
-.icon-twitter,
-.icon-google-plus { width: 20px; }
+.s-icon-twitter,
+.s-icon-google-plus { width: 20px; }
 
-.icon-twitter { background: url("img/icon-twitter.gif") no-repeat; }
+.s-icon-twitter { background: url("img/icon-twitter.gif") no-repeat; }
 
-.icon-google-plus { background: url("img/icon-google-plus.gif") no-repeat; }
+.s-icon-google-plus { background: url("img/icon-google-plus.gif") no-repeat; }
 
-.icon-facebook {
+.s-icon-facebook {
   background: url("img/icon-facebook.gif") no-repeat;
   width: 12px;
 }

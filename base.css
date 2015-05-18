@@ -78,6 +78,40 @@ button {
   border-radius: 3px;
   color: #fff; }
 
+[class*="h-icon-"] {
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  margin-bottom: 10px; }
+  [class*="h-icon-"]:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+.h-icon-cloud-c {
+  background-image: url("img/i-cloud-check.gif");
+  height: 31px; }
+
+.h-icon-clock {
+  background-image: url("img/i-clock.gif");
+  height: 45px; }
+
+.h-icon-chat,
+.h-icon-file {
+  height: 52px; }
+
+.h-icon-chat {
+  background-image: url("img/i-chat.gif"); }
+
+.h-icon-file {
+  background-image: url("img/i-file.gif"); }
+
+.h-icon-cloud {
+  background-image: url("img/i-cloud.gif");
+  height: 42px;
+  margin-bottom: 30px;
+  padding-left: 85px; }
+
 .input-icon {
   display: inline-block;
   position: relative;
@@ -106,21 +140,21 @@ button {
   .social li:not(:last-child) {
     margin-right: 30px; }
 
-[class*="icon-"] {
+[class*="s-icon-"] {
   height: 23px;
   vertical-align: middle; }
 
-.icon-twitter,
-.icon-google-plus {
+.s-icon-twitter,
+.s-icon-google-plus {
   width: 20px; }
 
-.icon-twitter {
+.s-icon-twitter {
   background: url("img/icon-twitter.gif") no-repeat; }
 
-.icon-google-plus {
+.s-icon-google-plus {
   background: url("img/icon-google-plus.gif") no-repeat; }
 
-.icon-facebook {
+.s-icon-facebook {
   background: url("img/icon-facebook.gif") no-repeat;
   width: 12px; }
 
@@ -207,34 +241,6 @@ header[role=banner] {
       font-size: .875em;
       line-height: 22px; }
 
-[class*=i-] {
-  background-repeat: no-repeat;
-  padding-left: 60px;
-  margin-bottom: 10px; }
-  [class*=i-]:before {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle; }
-
-.i-cloud-c {
-  background-image: url("img/i-cloud-check.gif");
-  height: 31px; }
-
-.i-clock {
-  background-image: url("img/i-clock.gif");
-  height: 45px; }
-
-.i-chat,
-.i-file {
-  height: 52px; }
-
-.i-chat {
-  background-image: url("img/i-chat.gif"); }
-
-.i-file {
-  background-image: url("img/i-file.gif"); }
-
 #why-different {
   background: #f1f1f2 url("img/why-different-bg.png") right center no-repeat; }
   #why-different h2 {
@@ -246,12 +252,6 @@ header[role=banner] {
   #why-different p {
     line-height: 2;
     width: 715px; }
-
-.i-cloud {
-  background-image: url("img/i-cloud.gif");
-  height: 42px;
-  margin-bottom: 30px;
-  padding-left: 85px; }
 
 #sign-up {
   text-align: center; }
