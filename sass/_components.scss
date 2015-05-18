@@ -181,6 +181,7 @@ button {
 }
 
 [class*="s-icon-"] { 
+  background-repeat: no-repeat;
   height: 23px;
   vertical-align: middle; 
 }
@@ -188,12 +189,12 @@ button {
 .s-icon-twitter,
 .s-icon-google-plus { width: 20px; }
 
-.s-icon-twitter { background: url("img/icon-twitter.gif") no-repeat; }
+.s-icon-twitter { background-image: url("img/icon-twitter.gif"); }
 
-.s-icon-google-plus { background: url("img/icon-google-plus.gif") no-repeat; }
+.s-icon-google-plus { background-image: url("img/icon-google-plus.gif"); }
 
 .s-icon-facebook {
-  background: url("img/icon-facebook.gif") no-repeat;
+  background-image: url("img/icon-facebook.gif");
   width: 12px;
 }
 // --------------------------------------------------
