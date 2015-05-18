@@ -126,7 +126,8 @@ button {
   top: 50%;
   width: 30px; }
 
-.social {
+.social,
+[class*="s-icon-"] {
   vertical-align: middle; }
 
 .social, li, a {
@@ -142,8 +143,7 @@ button {
 
 [class*="s-icon-"] {
   background-repeat: no-repeat;
-  height: 23px;
-  vertical-align: middle; }
+  height: 23px; }
 
 .s-icon-twitter,
 .s-icon-google-plus {

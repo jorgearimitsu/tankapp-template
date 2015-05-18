@@ -165,7 +165,8 @@ button {
 }
 
 //social icons
-.social { vertical-align: middle; }
+.social,
+[class*="s-icon-"] { vertical-align: middle; }
 
 .social, li, a { display: inline-block; }
 
@@ -183,7 +184,6 @@ button {
 [class*="s-icon-"] { 
   background-repeat: no-repeat;
   height: 23px;
-  vertical-align: middle; 
 }
 
 .s-icon-twitter,
