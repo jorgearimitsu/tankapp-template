@@ -119,4 +119,35 @@ button {
   top: 50%;
   width: 30px;
 }
+
+//social icons
+.social, li, a { display: inline-block; }
+
+.social li { 
+  position: relative; 
+
+  span {
+    position: absolute;
+    left: -9999em;
+  }
+
+  &:not(:last-child) { margin-right: 30px; }
+}
+
+[class*="icon-"] { 
+  height: 23px;
+  vertical-align: middle; 
+}
+
+.icon-twitter,
+.icon-google-plus { width: 20px; }
+
+.icon-twitter { background: url("img/icon-twitter.gif") no-repeat; }
+
+.icon-google-plus { background: url("img/icon-google-plus.gif") no-repeat; }
+
+.icon-facebook {
+  background: url("img/icon-facebook.gif") no-repeat;
+  width: 12px;
+}
 // --------------------------------------------------
