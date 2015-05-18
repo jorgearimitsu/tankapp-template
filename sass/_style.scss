@@ -222,14 +222,13 @@ header[role=banner] {
 #sign-up {
   text-align: center;
 
-  h2 { margin-bottom: 50px; }
-
   p { 
     font-size: 1.5em; // 24px / 16px
     margin: 50px 0;
 
     &:first-letter { text-transform: uppercase; }
   }  
+  
   form {
     position: relative;
 
