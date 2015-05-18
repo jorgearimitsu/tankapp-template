@@ -39,7 +39,7 @@ header[role=banner] {
     span { display: none; }
   }
 
-  li[role=menuitem]:not(:last-child) { margin-right: 30px; }
+  
 }
 // --------------------------------------------------
 
@@ -262,6 +262,28 @@ header[role=banner] {
 footer[role=contentinfo] {
   background-color: #f9f9f9;
   height: 140px;
-  line-height: 140px;
+  text-align: right;
+
+  .container:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  img {
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 53.5px;
+    width: 178px;
+  }
+
+  nav { 
+    border-right: 1px solid #777;
+    margin-right: 20px; 
+  }
+
+  li[role=menuitem]:last-child { margin-right: 20px; }
 }
 // --------------------------------------------------

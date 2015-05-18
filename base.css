@@ -14,6 +14,7 @@ body {
   min-width: 1260px; }
 
 .container {
+  height: 100%;
   margin: 0 auto;
   position: relative;
   width: 1260px; }
@@ -55,7 +56,11 @@ p {
 nav[role=navigation],
 ul[role=menu],
 li[role=menuitem] {
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: middle; }
+
+li[role=menuitem]:not(:last-child) {
+  margin-right: 30px; }
 
 input {
   border: none;
@@ -84,6 +89,9 @@ button {
   position: absolute;
   top: 50%;
   width: 30px; }
+
+.social {
+  vertical-align: middle; }
 
 .social, li, a {
   display: inline-block; }
@@ -126,8 +134,6 @@ header[role=banner] {
       width: 201; }
     header[role=banner] h1 span {
       display: none; }
-  header[role=banner] li[role=menuitem]:not(:last-child) {
-    margin-right: 30px; }
 
 #tankapp > h2 {
   display: none; }
@@ -273,4 +279,20 @@ header[role=banner] {
 footer[role=contentinfo] {
   background-color: #f9f9f9;
   height: 140px;
-  line-height: 140px; }
+  text-align: right; }
+  footer[role=contentinfo] .container:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  footer[role=contentinfo] img {
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 53.5px;
+    width: 178px; }
+  footer[role=contentinfo] nav {
+    border-right: 1px solid #777;
+    margin-right: 20px; }
+  footer[role=contentinfo] li[role=menuitem]:last-child {
+    margin-right: 20px; }

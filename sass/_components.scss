@@ -24,6 +24,7 @@
 body { min-width: 1260px; }
 
 .container {
+  height: 100%;
   margin: 0 auto;
   position: relative;
   width: 1260px;
@@ -73,7 +74,10 @@ p {
 // --------------------------------------------------
 nav[role=navigation],
 ul[role=menu],
-li[role=menuitem] { display: inline-block; }
+li[role=menuitem] { display: inline-block; vertical-align: middle; }
+
+li[role=menuitem]:not(:last-child) { margin-right: 30px; }
+
 // --------------------------------------------------
 
 
@@ -122,6 +126,8 @@ button {
 }
 
 //social icons
+.social { vertical-align: middle; }
+
 .social, li, a { display: inline-block; }
 
 .social li { 
