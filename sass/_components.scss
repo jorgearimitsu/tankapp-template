@@ -30,54 +30,56 @@ body { min-width: 1260px; }
   width: 1260px;
 }
 
+h3, nav[role=navigation],
+ul[role=menu], li[role=menuitem] {
+  display: inline-block; 
+  vertical-align: middle; 
+}
 // --------------------------------------------------
 
 
 // --------------------------------------------------
 // @section typography
 // --------------------------------------------------
-body { font-family: "Ubuntu", sans-serif; }
+
+// font
+body,
+input[type=text],
+input[type=email] { font-family: "Ubuntu", sans-serif; }
 
 h2 { font-size: 2.5em; } // 40px / 16px
 
+p, li[role=menuitem] a { font-size: 1em; }
+
+button,
+input[type=text], 
+input[type=email] { font-size: 1.125em; } // 18px / 16px
+
+p, li[role=menuitem] a,
+input[type=text],
+input[type=email] { font-weight: 300; }
+
+h3, button { font-weight: 500; }
+
+// text
 section > h2,
 section .container > h2 { text-align: center; }
 
-h3 { 
-  display: inline-block; 
-  vertical-align: middle;
-}
+h2, button, li[role=menuitem] a { text-transform: uppercase; }
 
-h2, h3,
-li[role=menuitem] a { color: #2d394c; }
+li[role=menuitem] a { text-decoration: none; }
 
-h2,
-li[role=menuitem] a { text-transform: uppercase; }
+//colors
+h2, h3, li[role=menuitem] a { color: #2d394c; }
 
-p,
-li[role=menuitem] a { font-size: 1em; }
-
-li[role=menuitem] a { 
-  font-weight: 300;
-  text-decoration: none; 
-}
-
-p { 
-  color: #5a626e; 
-  font-weight: 300;
-}
+p { color: #5a626e; }
 // --------------------------------------------------
 
 
 // --------------------------------------------------
 // @section navigation
 // --------------------------------------------------
-nav[role=navigation],
-ul[role=menu],
-li[role=menuitem] { display: inline-block; vertical-align: middle; }
-
 li[role=menuitem]:not(:last-child) { margin-right: 30px; }
-
 // --------------------------------------------------
 
 
@@ -88,9 +90,8 @@ input {
   border: none;
   border-radius: 5px;
   color: #d9d9d9;
-  font: 300 1.125em "Ubuntu", sans-serif;
 }
-
+// --------------------------------------------------
 
 // --------------------------------------------------
 // @section buttons
@@ -100,8 +101,6 @@ button {
   border: none;
   border-radius: 3px;
   color: #fff;
-  font: 500 1.125em "Ubuntu", sans-serif;
-  text-transform: uppercase;
 }
 // --------------------------------------------------
 

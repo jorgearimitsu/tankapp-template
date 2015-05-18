@@ -19,45 +19,50 @@ body {
   position: relative;
   width: 1260px; }
 
-body {
+h3, nav[role=navigation],
+ul[role=menu], li[role=menuitem] {
+  display: inline-block;
+  vertical-align: middle; }
+
+body,
+input[type=text],
+input[type=email] {
   font-family: "Ubuntu", sans-serif; }
 
 h2 {
   font-size: 2.5em; }
 
+p, li[role=menuitem] a {
+  font-size: 1em; }
+
+button,
+input[type=text],
+input[type=email] {
+  font-size: 1.125em; }
+
+p, li[role=menuitem] a,
+input[type=text],
+input[type=email] {
+  font-weight: 300; }
+
+h3, button {
+  font-weight: 500; }
+
 section > h2,
 section .container > h2 {
   text-align: center; }
 
-h3 {
-  display: inline-block;
-  vertical-align: middle; }
-
-h2, h3,
-li[role=menuitem] a {
-  color: #2d394c; }
-
-h2,
-li[role=menuitem] a {
+h2, button, li[role=menuitem] a {
   text-transform: uppercase; }
 
-p,
 li[role=menuitem] a {
-  font-size: 1em; }
-
-li[role=menuitem] a {
-  font-weight: 300;
   text-decoration: none; }
 
-p {
-  color: #5a626e;
-  font-weight: 300; }
+h2, h3, li[role=menuitem] a {
+  color: #2d394c; }
 
-nav[role=navigation],
-ul[role=menu],
-li[role=menuitem] {
-  display: inline-block;
-  vertical-align: middle; }
+p {
+  color: #5a626e; }
 
 li[role=menuitem]:not(:last-child) {
   margin-right: 30px; }
@@ -65,16 +70,13 @@ li[role=menuitem]:not(:last-child) {
 input {
   border: none;
   border-radius: 5px;
-  color: #d9d9d9;
-  font: 300 1.125em "Ubuntu", sans-serif; }
+  color: #d9d9d9; }
 
 button {
   background-color: #77c344;
   border: none;
   border-radius: 3px;
-  color: #fff;
-  font: 500 1.125em "Ubuntu", sans-serif;
-  text-transform: uppercase; }
+  color: #fff; }
 
 .input-icon {
   display: inline-block;
@@ -199,7 +201,6 @@ header[role=banner] {
       margin-bottom: 35px; }
     #why-us section h3 {
       font-size: 1.375em;
-      font-weight: 500;
       text-transform: capitalize; }
     #why-us section p {
       color: #9499a2;
