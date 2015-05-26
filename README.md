@@ -6,7 +6,7 @@
 
 #####Design by: [Akhil VR](http://www.cssauthor.com/author/akhil-vr/)
 
-[Download](https://goo.gl/gwqCTy)
+[Download](https://goo.gl/Jl7wqg)
 
 \-------------------------------------------------------------------------------------------------------------------
 
